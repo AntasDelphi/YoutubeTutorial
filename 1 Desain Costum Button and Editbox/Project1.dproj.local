@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/10/31 17:52:47.000.799,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/31 17:54:42.000.176,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/23 11:36:55.000.642,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/20 06:36:25.000.426,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/20 09:08:28.000.677,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/27 09:55:10.000.709,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/28 10:37:06.000.663,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/29 15:31:03.000.237,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/03 18:48:22.000.570,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/03 20:38:26.000.165,C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas=D:\Youtube\Video 1\Unit1.pas</Transaction>
+    <Transaction>2024/07/03 20:38:26.000.165,C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.fmx=D:\Youtube\Video 1\Unit1.fmx</Transaction>
+    <Transaction>2024/07/03 20:38:27.000.796,C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Project1.dproj=D:\Youtube\Video 1\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64="6d0b61ae"/>
+	</ActiveMobileDevice>
+</BorlandProject>
