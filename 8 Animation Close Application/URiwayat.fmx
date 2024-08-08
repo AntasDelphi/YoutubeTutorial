@@ -1,0 +1,27 @@
+object FRiwayat: TFRiwayat
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 640
+  ClientWidth = 360
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Center
+    Size.Width = 192.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'INI ADALAH FORM RIWAYAT'
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 24.000000000000000000
+    TabOrder = 1
+    Text = 'KELUAR'
+    OnClick = Button1Click
+  end
+end

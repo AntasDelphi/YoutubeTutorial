@@ -1,0 +1,23 @@
+object FAbsensi: TFAbsensi
+  Size.Width = 320.000000000000000000
+  Size.Height = 523.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = claCornflowerblue
+    Size.Width = 320.000000000000000000
+    Size.Height = 523.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Align = Center
+    StyledSettings = [Family, Size, Style]
+    Size.Width = 225.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.FontColor = claWhite
+    TextSettings.HorzAlign = Center
+    Text = 'INI ADALAH FRAME ABSENSI'
+    TabOrder = 1
+  end
+end

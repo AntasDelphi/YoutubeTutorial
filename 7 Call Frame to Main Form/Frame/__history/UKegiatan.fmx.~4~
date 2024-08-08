@@ -1,0 +1,31 @@
+object FKegiatan: TFKegiatan
+  Size.Width = 320.000000000000000000
+  Size.Height = 527.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = claAquamarine
+    Size.Width = 320.000000000000000000
+    Size.Height = 527.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Align = Center
+    Size.Width = 225.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'INI ADALAH FRAME KEGIATAN'
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 304.000000000000000000
+    Size.Width = 161.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+end

@@ -1,0 +1,5 @@
+object FDashboard: TFDashboard
+  Size.Width = 360.000000000000000000
+  Size.Height = 500.000000000000000000
+  Size.PlatformDefault = False
+end

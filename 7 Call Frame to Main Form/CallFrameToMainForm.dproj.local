@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/10/31 17:52:47.000.799,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/31 17:54:42.000.176,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/23 11:36:55.000.642,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/20 06:36:25.000.426,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/20 09:08:28.000.677,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/27 09:55:10.000.709,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/28 10:37:06.000.663,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/29 15:31:03.000.237,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/04 17:27:51.000.182,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/17 11:23:53.000.977,=C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/17 11:44:48.000.265,C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.fmx=D:\Youtube\Floating Action Button\UUtama.fmx</Transaction>
+    <Transaction>2024/07/17 11:44:48.000.265,C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Unit1.pas=D:\Youtube\Floating Action Button\UUtama.pas</Transaction>
+    <Transaction>2024/07/17 11:45:20.000.043,C:\Users\User\OneDrive\Dokumen\Embarcadero\Studio\Projects\Project1.dproj=D:\Youtube\Floating Action Button\FLoatingtButton.dproj</Transaction>
+    <Transaction>2024/07/18 10:44:24.000.439,D:\Youtube\4 Menu Sidebar\SidebarMenu.dproj=D:\Youtube\4 Menu Sidebar\FLoatingtButton.dproj</Transaction>
+    <Transaction>2024/07/19 13:06:54.000.492,D:\Youtube\5 Menu Bottom Navigation Bar\SidebarMenu.dproj=D:\Youtube\5 Menu Bottom Navigation Bar\BottomNavigationBar.dproj</Transaction>
+    <Transaction>2024/07/21 11:06:40.000.931,D:\Youtube\6 Call Frame to TabControl\CallFrameToTab.dproj=D:\Youtube\6 Call Frame to TabControl\BottomNavigationBar.dproj</Transaction>
+    <Transaction>2024/07/21 11:18:11.000.051,=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 11:21:23.000.067,=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 11:22:06.000.442,D:\Youtube\6 Call Frame to TabControl\Frame\UKegiatan.fmx=D:\Youtube\6 Call Frame to TabControl\Unit1.fmx</Transaction>
+    <Transaction>2024/07/21 11:22:06.000.442,D:\Youtube\6 Call Frame to TabControl\Frame\UKegiatan.pas=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 11:23:35.000.451,=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 11:23:59.000.311,D:\Youtube\6 Call Frame to TabControl\Frame\UAbsensi.pas=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 11:23:59.000.311,D:\Youtube\6 Call Frame to TabControl\Frame\UAbsensi.fmx=D:\Youtube\6 Call Frame to TabControl\Unit1.fmx</Transaction>
+    <Transaction>2024/07/21 11:46:06.000.610,D:\Youtube\6 Call Frame to TabControl\Frame\UKegiatan.pas=</Transaction>
+    <Transaction>2024/07/21 11:46:06.000.514,D:\Youtube\6 Call Frame to TabControl\Frame\UAbsensi.pas=</Transaction>
+    <Transaction>2024/07/21 14:12:07.000.350,=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 14:12:34.000.830,D:\Youtube\6 Call Frame to TabControl\Frame\UKegiatan.fmx=D:\Youtube\6 Call Frame to TabControl\Unit1.fmx</Transaction>
+    <Transaction>2024/07/21 14:12:34.000.830,D:\Youtube\6 Call Frame to TabControl\Frame\UKegiatan.pas=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 20:24:07.000.507,=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 20:24:32.000.050,D:\Youtube\6 Call Frame to TabControl\Unit1.fmx=D:\Youtube\6 Call Frame to TabControl\Frame\UKegiatan.fmx</Transaction>
+    <Transaction>2024/07/21 20:24:32.000.050,D:\Youtube\6 Call Frame to TabControl\Unit1.pas=D:\Youtube\6 Call Frame to TabControl\Frame\UKegiatan.pas</Transaction>
+    <Transaction>2024/07/21 20:25:40.000.611,=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 20:25:58.000.507,D:\Youtube\6 Call Frame to TabControl\Unit1.fmx=D:\Youtube\6 Call Frame to TabControl\Frame\UAbsensi.fmx</Transaction>
+    <Transaction>2024/07/21 20:25:58.000.507,D:\Youtube\6 Call Frame to TabControl\Unit1.pas=D:\Youtube\6 Call Frame to TabControl\Frame\UAbsensi.pas</Transaction>
+    <Transaction>2024/07/21 20:37:02.000.840,=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 20:38:27.000.853,D:\Youtube\6 Call Frame to TabControl\URiwayat.fmx=D:\Youtube\6 Call Frame to TabControl\Unit1.fmx</Transaction>
+    <Transaction>2024/07/21 20:38:27.000.853,D:\Youtube\6 Call Frame to TabControl\URiwayat.pas=D:\Youtube\6 Call Frame to TabControl\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 21:13:19.000.470,D:\Youtube\7 Call Frame to Main Form\CallFrameToTab.dproj=D:\Youtube\7 Call Frame to Main Form\CallFrameToMainForm.dproj</Transaction>
+    <Transaction>2024/07/21 21:20:33.000.287,=D:\Youtube\7 Call Frame to Main Form\Unit1.pas</Transaction>
+    <Transaction>2024/07/21 21:21:01.000.916,D:\Youtube\7 Call Frame to Main Form\Unit1.pas=D:\Youtube\7 Call Frame to Main Form\Frame\UDashboard.pas</Transaction>
+    <Transaction>2024/07/21 21:21:01.000.916,D:\Youtube\7 Call Frame to Main Form\Unit1.fmx=D:\Youtube\7 Call Frame to Main Form\Frame\UDashboard.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

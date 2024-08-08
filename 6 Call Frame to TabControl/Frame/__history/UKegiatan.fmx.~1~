@@ -1,0 +1,5 @@
+object FKegiatan: TFKegiatan
+  Size.Width = 320.000000000000000000
+  Size.Height = 527.000000000000000000
+  Size.PlatformDefault = False
+end

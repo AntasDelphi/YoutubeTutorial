@@ -1,0 +1,5 @@
+object FAbsensi: TFAbsensi
+  Size.Width = 320.000000000000000000
+  Size.Height = 523.000000000000000000
+  Size.PlatformDefault = False
+end
