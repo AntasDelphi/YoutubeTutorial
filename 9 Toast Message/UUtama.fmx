@@ -1,0 +1,110 @@
+object FUtama: TFUtama
+  Left = 0
+  Top = 0
+  Caption = 'Read Write ini File'
+  ClientHeight = 562
+  ClientWidth = 360
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object loutama: TLayout
+    Align = Contents
+    Size.Width = 360.000000000000000000
+    Size.Height = 562.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object RectBottom: TRectangle
+      Align = Bottom
+      Fill.Color = claBlack
+      Position.Y = 521.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      object Label7: TLabel
+        Align = Client
+        StyledSettings = [Family, Style]
+        Size.Width = 360.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Delphi Firemonkey'
+        TabOrder = 1
+      end
+    end
+    object RectHeader: TRectangle
+      Align = MostTop
+      Fill.Color = claBlack
+      Size.Width = 360.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      object Button1: TButton
+        Align = Right
+        Position.X = 312.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'drawertoolbutton'
+        TabOrder = 0
+        Text = 'Button1'
+      end
+      object Label6: TLabel
+        Align = Left
+        StyledSettings = [Family, Style]
+        Size.Width = 273.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = '  Mobile Application'
+        TabOrder = 1
+      end
+    end
+    object Label1: TLabel
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.Y = 46.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'TOAST MESSAGE'
+      TabOrder = 2
+    end
+    object CornerButton1: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 56.000000000000000000
+      Position.Y = 128.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 249.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'TAMPILKAN TOAST MESSAGE'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = CornerButton1Click
+    end
+    object CornerButton2: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 56.000000000000000000
+      Position.Y = 192.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 249.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'SHOWMESSAGE'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = CornerButton2Click
+    end
+  end
+end
