@@ -1,0 +1,182 @@
+object FUtama: TFUtama
+  Left = 0
+  Top = 0
+  ClientHeight = 562
+  ClientWidth = 360
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object loutama: TLayout
+    Align = Contents
+    Size.Width = 360.000000000000000000
+    Size.Height = 562.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object RectBottom: TRectangle
+      Align = Bottom
+      Fill.Color = claBlack
+      Position.Y = 521.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      object Label7: TLabel
+        Align = Client
+        StyledSettings = [Family, Style]
+        Size.Width = 360.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Delphi Firemonkey'
+        TabOrder = 1
+      end
+    end
+    object RectHeader: TRectangle
+      Align = MostTop
+      Fill.Color = claBlack
+      Size.Width = 360.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      object Button1: TButton
+        Align = Right
+        Position.X = 312.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'drawertoolbutton'
+        TabOrder = 0
+        Text = 'Button1'
+      end
+      object Label6: TLabel
+        Align = Left
+        StyledSettings = [Family, Style]
+        Size.Width = 273.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = '  Mobile Application'
+        TabOrder = 1
+      end
+    end
+    object Label1: TLabel
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.Y = 46.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'COSTUM TOAST MESSAGE'
+      TabOrder = 3
+    end
+    object BitSukses: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 26.000000000000000000
+      Position.Y = 96.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 145.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = 'Success'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = BitSuksesClick
+    end
+    object BitError: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 188.000000000000000000
+      Position.Y = 96.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 145.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = 'Error'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = BitErrorClick
+    end
+    object BitWarning: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 26.000000000000000000
+      Position.Y = 136.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 145.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = 'Warning'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = BitWarningClick
+    end
+    object BitInformasi: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 188.000000000000000000
+      Position.Y = 136.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 145.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'Information'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = BitInformasiClick
+    end
+    object BitToast_2: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 26.000000000000000000
+      Position.Y = 184.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 307.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'Notifikasi Model 2'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = BitToast_2Click
+    end
+    object Label2: TLabel
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Position.Y = 331.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'PROCES LOADING'
+      TabOrder = 2
+    end
+    object BitLoading: TCornerButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 27.000000000000000000
+      Position.Y = 373.000000000000000000
+      Sides = [Top, Left, Bottom, Right]
+      Size.Width = 307.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'PROSES'
+      TextSettings.Font.Size = 13.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      OnClick = BitLoadingClick
+    end
+  end
+end
