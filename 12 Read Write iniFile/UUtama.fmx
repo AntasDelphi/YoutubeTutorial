@@ -1,0 +1,128 @@
+object FUtama: TFUtama
+  Left = 0
+  Top = 0
+  Caption = 'Read Write ini File'
+  ClientHeight = 517
+  ClientWidth = 360
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object loutama: TLayout
+    Align = Contents
+    Size.Width = 360.000000000000000000
+    Size.Height = 517.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object RectBottom: TRectangle
+      Align = Bottom
+      Fill.Color = claBlack
+      Position.Y = 476.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      object Label7: TLabel
+        Align = Client
+        StyledSettings = [Family, Style]
+        Size.Width = 360.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Delphi Firemonkey'
+        TabOrder = 1
+      end
+    end
+    object RectHeader: TRectangle
+      Align = MostTop
+      Fill.Color = claBlack
+      Size.Width = 360.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      object Button1: TButton
+        Align = Right
+        Position.X = 312.000000000000000000
+        Size.Width = 48.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'drawertoolbutton'
+        TabOrder = 0
+        Text = 'Button1'
+      end
+      object Label6: TLabel
+        Align = Left
+        StyledSettings = [Family, Style]
+        Size.Width = 273.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = '  Mobile Application'
+        TabOrder = 1
+      end
+    end
+    object Label1: TLabel
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      AutoSize = True
+      StyledSettings = [Family, Style, FontColor]
+      Position.Y = 46.000000000000000000
+      Size.Width = 360.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'READ && WRITE INIFILE'
+      TabOrder = 2
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      Position.X = 32.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 281.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 5
+      Position.X = 32.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 281.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Edit3: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 4
+      Position.X = 32.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 281.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Edit4: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Position.X = 32.000000000000000000
+      Position.Y = 232.000000000000000000
+      Size.Width = 281.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Button2: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'SIMPAN'
+      OnClick = Button2Click
+    end
+  end
+end
