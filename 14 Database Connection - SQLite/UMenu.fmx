@@ -1,0 +1,108 @@
+object FMenu: TFMenu
+  Left = 0
+  Top = 0
+  Caption = 'FMenu'
+  ClientHeight = 513
+  ClientWidth = 345
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RectBottom: TRectangle
+    Align = Bottom
+    Fill.Color = claBlack
+    Position.Y = 472.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    object Label7: TLabel
+      Align = Client
+      StyledSettings = [Family, Style]
+      Size.Width = 345.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Delphi Firemonkey'
+      TabOrder = 1
+    end
+  end
+  object RectHeader: TRectangle
+    Align = MostTop
+    Fill.Color = claBlack
+    Size.Width = 345.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    object Label6: TLabel
+      Align = Center
+      AutoSize = True
+      StyledSettings = [Family, Style]
+      Size.Width = 273.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = '  Mobile Application'
+      TabOrder = 0
+    end
+  end
+  object Button1: TButton
+    Position.X = 11.000000000000000000
+    Position.Y = 53.000000000000000000
+    Size.Width = 110.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'HUBUNGKAN'
+    OnClick = Button1Click
+  end
+  object StringGrid1: TStringGrid
+    Align = Bottom
+    CanFocus = True
+    ClipChildren = True
+    Position.Y = 88.000000000000000000
+    Size.Width = 345.000000000000000000
+    Size.Height = 384.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 341.000000000000000000
+    Viewport.Height = 359.000000000000000000
+  end
+  object Button2: TButton
+    Position.X = 131.000000000000000000
+    Position.Y = 53.000000000000000000
+    Size.Width = 110.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'TAMPILKAN'
+    OnClick = Button2Click
+  end
+  object SQLShow: TFDQuery
+    Connection = DM.Koneksi
+    SQL.Strings = (
+      'select*from tbsiswa')
+    Left = 208
+    Top = 240
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = SQLShow
+    ScopeMappings = <>
+    Left = 160
+    Top = 240
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 60
+    Top = 245
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = StringGrid1
+      Columns = <>
+    end
+  end
+end
