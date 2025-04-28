@@ -1,0 +1,165 @@
+object FMenu: TFMenu
+  Left = 0
+  Top = 0
+  ClientHeight = 483
+  ClientWidth = 317
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claBlack
+    Size.Width = 317.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object Label1: TLabel
+      Align = Center
+      StyledSettings = [Family, Style]
+      Size.Width = 289.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Connection to MySql With MyDAC'
+      TabOrder = 0
+    end
+  end
+  object Rectangle2: TRectangle
+    Align = Center
+    Fill.Color = claWhite
+    Size.Width = 288.000000000000000000
+    Size.Height = 363.000000000000000000
+    Size.PlatformDefault = False
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object Label2: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 13.000000000000000000
+      TextSettings.Font.Size = 13.000000000000000000
+      Text = 'Host'
+      TabOrder = 8
+    end
+    object Label3: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 68.000000000000000000
+      TextSettings.Font.Size = 13.000000000000000000
+      Text = 'User DB'
+      TabOrder = 4
+    end
+    object Label4: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 169.000000000000000000
+      TextSettings.Font.Size = 13.000000000000000000
+      Text = 'Database'
+      TabOrder = 2
+    end
+    object Label5: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 118.000000000000000000
+      TextSettings.Font.Size = 13.000000000000000000
+      Text = 'Password DB'
+      TabOrder = 0
+    end
+    object EDHost: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 9
+      Text = '192.168.161.48'
+      TextSettings.Font.Size = 13.000000000000000000
+      Position.X = 19.000000000000000000
+      Position.Y = 34.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object EDUser: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 7
+      Text = 'adminantas'
+      TextSettings.Font.Size = 13.000000000000000000
+      Position.X = 19.000000000000000000
+      Position.Y = 86.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object EDpass: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      Password = True
+      Text = 'yudi@antas12345'
+      TextSettings.Font.Size = 13.000000000000000000
+      Position.X = 19.000000000000000000
+      Position.Y = 137.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object EDDatabase: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 5
+      Text = 'dbtutorial'
+      TextSettings.Font.Size = 13.000000000000000000
+      Position.X = 19.000000000000000000
+      Position.Y = 188.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object Button1: TButton
+      Align = Scale
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 19.000000000000000000
+      Position.Y = 282.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Text = 'Hubungkan'
+      TextSettings.Font.Size = 13.000000000000000000
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Align = Scale
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 147.000000000000000000
+      Position.Y = 282.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      Text = 'Keluar'
+      TextSettings.Font.Size = 13.000000000000000000
+      OnClick = Button2Click
+    end
+    object Label6: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 20.000000000000000000
+      Position.Y = 221.000000000000000000
+      TextSettings.Font.Size = 13.000000000000000000
+      Text = 'Port'
+      TabOrder = 1
+    end
+    object EDPort: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Text = '3306'
+      TextSettings.Font.Size = 13.000000000000000000
+      Position.X = 19.000000000000000000
+      Position.Y = 242.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+  end
+end
